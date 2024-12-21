@@ -6,7 +6,7 @@
 1. **Clone the Repository**:
 
 ```bash
-git clone https://github.com/your-username/backend-todo-app.git
+git clone https://github.com/Gyanesh-Rao28/capstone_backend.git
 cd backend-todo-app
 ```
 
@@ -38,7 +38,7 @@ If you want to boot it up without it commandeering your terminal (you'll have to
 
 6. **To login to docker PostgreSQL database (from a new terminal instance while docker containers are running) where you can run SQL commands and modify database!**:
 
-`docker exec -it postgres-db psql -U postgres -d todoapp`
+`docker exec -it postgres-db psql -U postgres -d capstone`
 
 7. **To stop Docker containers**:
 
@@ -50,4 +50,4 @@ If you want to boot it up without it commandeering your terminal (you'll have to
 
 9. **Access the App**:
 
-Open `http://localhost:5003`.
+Open `http://localhost:5000`.

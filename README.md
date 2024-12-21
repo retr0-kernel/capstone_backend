@@ -1,6 +1,7 @@
-## Getting Started
+## Setup Process
 
 0. **Install Docker Desktop**
+``https://docs.docker.com/desktop/setup/install/windows-install/``
 
 1. **Clone the Repository**:
 

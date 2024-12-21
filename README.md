@@ -50,25 +50,4 @@ If you want to boot it up without it commandeering your terminal (you'll have to
 
 9. **Access the App**:
 
-Open `http://localhost:5003` (or `localhost:3000` if changed) in your browser to see the frontend. You can register, log in, and manage your todo list from there.
-
-## Emulating HTTP Requests (REST Client)
-
-The **REST Client** file (`todo-app.rest`) is provided to help you test the API using HTTP requests directly. You can run these requests using the **REST Client** extension for VS Code or other compatible tools.
-
-### `todo-app.rest`
-
-The `todo-app.rest` file includes requests for:
-- **Registering a user**: Sends a `POST` request to create a new user.
-- **Logging in**: Sends a `POST` request to authenticate a user and retrieve a JWT token.
-- **Fetching todos**: Sends a `GET` request to fetch the authenticated user's todos (JWT required).
-- **Adding a todo**: Sends a `POST` request to create a new todo (JWT required).
-- **Updating a todo**: Sends a `PUT` request to update an existing todo (JWT required).
-- **Deleting a todo**: Sends a `DELETE` request to remove a todo (JWT required).
-
-### How to Use the REST Client
-
-1. Install the **REST Client** extension for VS Code.
-2. Open `todo-app.rest`.
-3. Run the requests by clicking on the "Send Request" link above each block of HTTP code.
-4. Make sure to copy the token from the login response and replace `{{token}}` with the actual JWT token for protected routes.
+Open `http://localhost:5003`.
